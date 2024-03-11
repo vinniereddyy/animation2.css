@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+.second{
+   text-align:center;
+   line-height: 660px;
+    width:300px;
+    height:300px;
+    background-image: repeating-radial-gradient(red ,green 2%,yellow 3%);
+    animation-name:animate;
+    animation-duration: 40s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-direction: reverse;
+    /* animation-fill-mode: backwards; */
+animation-play-state: running;
+position: absolute;
+top:30px;
+left:60px;
+
+}
+
+.third{
+   text-align:center;
+   line-height: 660px;
+    width:300px;
+    height:300px;
+    background-image: repeating-radial-gradient(red ,green 2%,yellow 3%);
+    animation-name:animate;
+    animation-duration: 40s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-direction: reverse;
+    /* animation-fill-mode: backwards; */
+animation-play-state: running;
+position:absolute;
+right:120px;
+top:30px;
+}
+
+
+.first{
+   text-align:center;
+   line-height: 660px;
+    width:400px;
+    height:400px;
+    background-image: repeating-radial-gradient(red ,green 2%,yellow 3%);
+    animation-name:animate;
+    animation-duration: 40s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-direction: reverse;
+    /* animation-fill-mode: backwards; */
+animation-play-state: running;
+position:absolute;
+top:150px;
+left:440px;
+}
+
+
+
+
+
+@keyframes animate{
+    0%{
+        
+        transform:rotate(100000deg);border-radius:80%;
+    }
+    50%{
+        background-image:url("./61i+YE9gshL.jpg");
+    }
+    90%{
+        opacity:0.6;background-image: repeating-radial-gradient(rgb(25, 7, 190),red 2%, rgb(0, 255, 170) 10%);
+    }
+    
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="first">_vinnie</div>
+    <div class="second">_vinnie</div>
+    <div class="third">_vinnie</div>
+</body>
+</html>
